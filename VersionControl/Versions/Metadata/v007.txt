@@ -1,0 +1,9 @@
+Version: v007
+Created: 9/19/2025 5:45:29 PM
+Timestamp: 20250919_174524
+File: C:\Users\wschoenberger\FuzzySum\VersionControl\Versions\v007_20250919_174524.xlsx
+Original: C:\Users\wschoenberger\CodexAudit\Copy of San Diego Gymnastics_QofE Databook.xlsx
+Size: 13670936
+Notes: 
+User: wschoenberger
+Computer: E7450-06

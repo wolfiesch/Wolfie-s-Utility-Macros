@@ -1,0 +1,67 @@
+# FuzzySum Configuration File
+# This file contains default settings for the FuzzySum subset sum solver
+
+# Solver defaults
+solver:
+  mode: "closest"           # closest, le, ge, exact, range
+  strategy: "ortools"       # ortools, dynamic, greedy, hybrid
+  scale_factor: 100         # Scale factor for float-to-int conversion
+  time_limit: 5.0          # Maximum solve time in seconds
+  min_items: null          # Minimum items in solution
+  max_items: null          # Maximum items in solution
+  min_value: null          # Minimum value of items to include
+  max_value: null          # Maximum value of items to include
+  tolerance: null          # Tolerance for range mode
+
+# Output defaults
+output:
+  level: "summary"         # minimal, summary, detailed, verbose, json
+  format: "terminal"       # terminal, plain, json, csv, markdown, html
+  width: null              # Terminal width (null for auto-detect)
+  show_progress: true      # Show progress indicators
+  show_timestamps: false   # Include timestamps in output
+  color_scheme: "default"  # Color scheme for terminal output
+
+# Parallel processing defaults
+parallel:
+  max_workers: null        # Maximum parallel workers (null for auto)
+  use_processes: false     # Use processes instead of threads
+  chunk_size: 10          # Batch size for parallel processing
+  timeout: null           # Timeout for parallel operations
+  enable_caching: true    # Enable result caching
+  cache_dir: null         # Cache directory (null for temp)
+
+# Excel integration defaults
+excel:
+  default_sheet: null     # Default sheet name (null for first sheet)
+  start_address: "A1"     # Default starting address
+  highlight_selected: true # Highlight selected cells in output
+  include_summary: true   # Include summary table in Excel output
+  auto_size_columns: true # Auto-size columns in Excel output
+
+# Global settings
+log_level: "INFO"         # DEBUG, INFO, WARNING, ERROR
+debug: false             # Enable debug mode
+
+# Named profiles for common configurations
+profiles:
+  fast:
+    solver:
+      strategy: "greedy"
+      time_limit: 1.0
+    output:
+      level: "minimal"
+
+  accurate:
+    solver:
+      strategy: "ortools"
+      time_limit: 30.0
+    output:
+      level: "detailed"
+
+  batch:
+    parallel:
+      max_workers: 8
+      enable_caching: true
+    output:
+      show_progress: true

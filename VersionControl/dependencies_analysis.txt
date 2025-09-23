@@ -1,0 +1,54 @@
+=== DEPENDENCY ANALYSIS ===
+Analyzing: Project Goldfish_QofE Databook_Draft.xlsx
+
+ANALYZING: Detail_PL
+==================
+Sheet found: Detail_PL
+Used Range: $A$2:$BK$129
+Sample analysis complete
+
+ANALYZING: Detail_BS
+==================
+Sheet found: Detail_BS
+Used Range: $A$2:$AQ$40
+Sample analysis complete
+
+REFERENCED SHEETS DETECTED:
+===========================
+  - IS_Db
+    [EXISTS in workbook]
+  - Detail_PL
+    [EXISTS in workbook]
+  - BS_Db
+    [EXISTS in workbook]
+  - Detail_BS
+    [EXISTS in workbook]
+
+WORKBOOK SHEETS:
+================
+1. Cover
+2. Index
+3. 1.0_EBITDA
+4. EBITDA
+5. EBITDA_db
+6. EBITDA_Subtable
+7. EBITDA Adj. Calcs
+8. 2.0_Outstanding Liabilities
+9. Outstanding Liabilities
+10. 3.0_Profit & Loss
+11. Unadj_to_Adj_PL
+12. Detail_PL
+13. 4.0_Balance Sheet
+14. Summary_BS
+15. Detail_BS
+16. 5.0_Supplemental
+17. Proof of Cash
+18. Transfers_Bank of TN - Op
+19. Transfers_Bank of TN - PR
+20. Source Data
+21. BS_Db
+22. IS_Db
+23. Bank of TN - Operating
+24. Bank of TN - Payroll
+25. Mtn Commerce Bk - Operating
+26. Mtn Commerce Bk - Payroll

@@ -1,0 +1,102 @@
+# Version Control Configuration
+version_control:
+  max_versions: 50
+  auto_cleanup: true
+  cleanup_days: 90
+  backup_current_on_rollback: true
+
+metrics:
+  # Define where to find key metrics in typical databook structures
+  locations:
+    ebitda:
+      sheets: ["EBITDA", "EBITDA_Consol", "1.0_EBITDA"]
+      patterns: ["EBITDA", "Adjusted EBITDA", "AEBITDA"]
+      search_range: "A1:Z100"
+
+    revenue:
+      sheets: ["Detail_PL", "Summary_PL", "P&L", "3.0_Profit & Loss"]
+      patterns: ["Revenue", "Total Revenue", "Net Revenue", "Sales"]
+      search_range: "A1:AZ200"
+
+    total_assets:
+      sheets: ["Detail_BS", "Summary_BS", "Balance Sheet", "4.0_Balance Sheet"]
+      patterns: ["Total Assets", "Assets", "Total Asset"]
+      search_range: "A1:AZ100"
+
+    total_liabilities:
+      sheets: ["Detail_BS", "Summary_BS", "Balance Sheet", "4.0_Balance Sheet"]
+      patterns: ["Total Liabilities", "Liabilities", "Total Liability"]
+      search_range: "A1:AZ100"
+
+    working_capital:
+      sheets: ["NWC", "Working Capital", "2.0_NWC"]
+      patterns: ["Working Capital", "Net Working Capital", "NWC"]
+      search_range: "A1:AZ100"
+
+    net_debt:
+      sheets: ["Net Debt", "Debt", "2.0_NWC & Net Debt"]
+      patterns: ["Net Debt", "Total Debt", "Debt Balance"]
+      search_range: "A1:AZ100"
+
+comparison:
+  # Sheets to ignore during comparison
+  ignore_sheets:
+    - "Temp"
+    - "Scratch"
+    - "Notes"
+    - "Tab Color Coding Key"
+    - "Cover"
+    - "Index"
+
+  # Tolerance for numeric comparisons (ignore differences less than this)
+  tolerance: 0.01
+
+  # Maximum cells to analyze per sheet (performance limit)
+  max_cells_per_sheet: 10000
+
+  # Highlight colors for changes (RGB values)
+  colors:
+    added: [200, 255, 200]     # Light green
+    deleted: [255, 200, 200]   # Light red
+    modified: [255, 255, 200]  # Light yellow
+    major_change: [255, 150, 150]  # Darker red for >10% changes
+
+storage:
+  # Compress snapshots to save space
+  compression: true
+
+  # Encrypt sensitive snapshots (requires password)
+  encryption: false
+
+  # Cloud backup options (future feature)
+  cloud_backup: false
+
+  # Remove empty rows/columns to optimize file size
+  optimize_snapshots: true
+
+alerts:
+  # Notify on significant changes
+  major_change_threshold: 0.10  # 10% change
+
+  # Flag formula errors
+  detect_formula_errors: true
+
+  # Warn on structural changes
+  warn_sheet_changes: true
+
+  # Alert on file size increases
+  size_increase_threshold: 0.25  # 25% file size increase
+
+# Pattern matching for different databook styles
+databook_patterns:
+  # Standard CDS databook structure
+  cds_standard:
+    section_pattern: "\\d+\\.\\d+_.*"  # e.g., "1.0_EBITDA", "2.0_NWC"
+    entity_patterns: ["_Consol", "_KOH", "_RGS", "_Consolidating"]
+    detail_patterns: ["Detail_", "Summary_"]
+
+  # Alternative patterns for different templates
+  alternative:
+    section_pattern: "Section \\d+"
+    entity_patterns: ["_Entity1", "_Entity2", "_Combined"]
+    detail_patterns: ["Detailed_", "Summary_"]

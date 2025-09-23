@@ -1,0 +1,245 @@
+{
+  "File": "Arixcel Explorer Settings",
+  "Version": "8.9.9212",
+  "ExplorerOptions": {
+    "HighlightCells": true,
+    "HighlightColorRoot": "#FF99FF",
+    "HighlightColorPrecedents": "#66CCFF",
+    "HighlightColorDependents": "#99FFCC",
+    "PreciseEvaluation": false,
+    "UnhideCells": true,
+    "GoBackOnEscape": true,
+    "ShowLocalFormulas": true,
+    "CustomColors": [
+      "#FF99FF",
+      "#66CCFF",
+      "#99FFCC"
+    ],
+    "GroupDependentsBySheet": false
+  },
+  "MainShortcuts": {
+    "ArixcelTab": "%x",
+    "ExplorePrecedents": "%Q",
+    "ExploreDependents": "^%Q",
+    "GoBack": "",
+    "Map": "^%M",
+    "CalcFlow": "^%F",
+    "RemoveFlowHighlights": "",
+    "SelectForCompare": "",
+    "Compare": ""
+  },
+  "FormulaMaps": {
+    "AnalyseUFs": true,
+    "Colors": {
+      "Empty": "#FFFF00",
+      "Text": "",
+      "Number": "#FFFF71",
+      "DataValidation": "#DBEEF3",
+      "UniqueFormula": "#FFC000",
+      "UniqueFormulaNoRefs": "#00FFFF",
+      "UniqueFormulaSheetRefs": "#F09100",
+      "UniqueFormulaExternalRefs": "#00FF80",
+      "FormulaCopiedDown": "#C3D69B",
+      "FormulaCopiedAcross": "#B8CCE4",
+      "FormulaCopiedDownAndAcross": "#C4BD97"
+    },
+    "CustomColors": [
+      "#FFC000",
+      "#00FFFF",
+      "#F09100",
+      "#00FF80",
+      "#B8CCE4",
+      "#C3D69B",
+      "#C4BD97",
+      "#DBEEF3",
+      "",
+      "#FFFF71",
+      ""
+    ]
+  },
+  "CalculationFlow": {
+    "Colors": {
+      "Inputs": "",
+      "Calculations": "#F2F2F2",
+      "Outputs": "#CCFF99",
+      "OrphanFormulas": "#FF9999",
+      "OutsidePrecedents": "#DEEBF6",
+      "InsideInflows": "",
+      "InsideOutflows": "#BDD7EE",
+      "OutsideDependents": "#E2EFD9"
+    },
+    "FontColors": {
+      "Inputs": "#0000FF",
+      "InsideInflows": "#188A18"
+    },
+    "CustomColors": [
+      "#F2F2F2",
+      "#CCFF99",
+      "#FF9999",
+      "#DEEBF6",
+      "#BDD7EE",
+      "#E2EFD9",
+      "#0000FF",
+      "#188A18"
+    ]
+  },
+  "CompareOptions": {
+    "HighlightCells": true,
+    "Highlight": {
+      "Left": "#99FFCC",
+      "Right": "#66CCFF"
+    },
+    "CustomColors": [
+      "#66CCFF",
+      "#99FFCC"
+    ],
+    "Mode": "Formulas",
+    "CheckAlignment": true,
+    "CopyFormats": true,
+    "ValueTolerance": 9.9999999999999995E-07,
+    "ComparisonStyle": "xlR1C1",
+    "IgnoreInputs": false
+  },
+  "UtilityList": [
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#DBDBDE",
+        "fontColor": ""
+      },
+      "Suffix": "CDS Dark Grey",
+      "Keys": "^%+6"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#F2F2F2",
+        "fontColor": ""
+      },
+      "Suffix": "CDS Light Grey",
+      "Keys": "^%+6"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#C65911",
+        "fontColor": "#FFFFFF"
+      },
+      "Suffix": "CDS Orange",
+      "Keys": "^%+9"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#FCE4D6",
+        "fontColor": ""
+      },
+      "Suffix": "CDS Light Orange",
+      "Keys": "^%+9"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#548235",
+        "fontColor": "#FFFFFF"
+      },
+      "Suffix": "CDS Green",
+      "Keys": "^%+8"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#E2EFDA",
+        "fontColor": "#000000"
+      },
+      "Suffix": "CDS Light Green",
+      "Keys": "^%+8"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#324E6B",
+        "fontColor": "#FFFFFF"
+      },
+      "Suffix": "CDS Dark Blue",
+      "Keys": "^%+7"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#D9E1F2",
+        "fontColor": "#000000"
+      },
+      "Suffix": "CDS Light Blue",
+      "Keys": "^%+7"
+    },
+    {
+      "Id": "CellColor",
+      "Params": {
+        "color": "#FFFF00",
+        "fontColor": "#000000"
+      },
+      "Suffix": "Highlight",
+      "Keys": "^%H"
+    },
+    {
+      "Id": "NumberFormat",
+      "Params": {
+        "format": "_(* #,##0_);_(* (#,##0);_(* \"-\"??_);_(@_)"
+      },
+      "Suffix": "DataRow",
+      "Keys": "^%K"
+    },
+    {
+      "Id": "TextColor",
+      "Params": {
+        "color": "#000000"
+      },
+      "Suffix": "Black",
+      "Keys": "^%+1"
+    },
+    {
+      "Id": "TextColor",
+      "Params": {
+        "color": "#FF0000"
+      },
+      "Suffix": "Red",
+      "Keys": "^%+2"
+    },
+    {
+      "Id": "TextColor",
+      "Params": {
+        "color": "Green"
+      },
+      "Suffix": "Green",
+      "Keys": "^%+3"
+    },
+    {
+      "Id": "TextColor",
+      "Params": {
+        "color": "Blue"
+      },
+      "Suffix": "Blue",
+      "Keys": "^%+4"
+    },
+    {
+      "Id": "AutoFit",
+      "Params": {
+        "type": "Columns"
+      },
+      "Suffix": "Columns",
+      "Keys": "^%C"
+    },
+    {
+      "Id": "AutoFit",
+      "Params": {
+        "type": "Columns"
+      },
+      "Suffix": "Rows",
+      "Keys": "^%R"
+    },
+    {
+      "Id": "ToggleRefStyle"
+    }
+  ]
+}

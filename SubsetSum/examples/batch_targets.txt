@@ -1,0 +1,12 @@
+# Batch targets file for FuzzySum demo
+# One target value per line, comments start with #
+
+500.00
+750.25
+1000.50
+1250.75
+300.00
+450.80
+625.40
+890.15
+1100.90

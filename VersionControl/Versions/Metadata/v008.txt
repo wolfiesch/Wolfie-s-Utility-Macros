@@ -1,0 +1,9 @@
+Version: v008
+Created: 9/22/2025 9:20:14 PM
+Timestamp: 20250922_212014
+File: C:\Users\wschoenberger\FuzzySum\VersionControl\Versions\v008_20250922_212014.xlsx
+Original: C:\Users\wschoenberger\FuzzySum\VersionControl\Project Goldfish_QofE Databook_Draft.xlsx
+Size: 674725
+Notes: 
+User: wschoenberger
+Computer: E7450-06

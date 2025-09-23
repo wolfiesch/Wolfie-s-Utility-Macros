@@ -1,0 +1,1 @@
+- excel add in directory is here: C:\Users\wschoenberger\AppData\Roaming\Microsoft\AddIns

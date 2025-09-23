@@ -1,0 +1,208 @@
+=== DATABOOK ANALYSIS ===
+File: Project Nexpera_QofE Databook.xlsx
+Total Sheets: 76
+Date Analyzed: 9/18/2025 6:43:30 PM
+
+SHEET 1: Tab Color Coding Key
+  Used Range: $B$2:$C$3
+  Last Row: 2
+  Last Column: 2
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 2: Cover
+  Used Range: $A$3:$I$21
+  Last Row: 19
+  Last Column: 9
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 3: Index
+  Used Range: $A$1:$F$17
+  Last Row: 17
+  Last Column: 6
+  A1 Content: Project Nexpera SS [Working Draft]
+  A2 Content: File Index
+  A3 Content: 
+
+SHEET 4: 1.0_EBITDA
+  Used Range: $A$1
+  Last Row: 1
+  Last Column: 1
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 5: EBITDA_Consol
+  Used Range: $A$1:$AQ$70
+  Last Row: 70
+  Last Column: 43
+  A1 Content: *
+  A2 Content: 
+  A3 Content: 
+
+SHEET 6: EBITDA_Consolidating
+  Used Range: $B$2:$O$55
+  Last Row: 54
+  Last Column: 14
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 7: EBITDA_KOH
+  Used Range: $A$1:$AO$60
+  Last Row: 60
+  Last Column: 41
+  A1 Content: KOH
+  A2 Content: 
+  A3 Content: 
+
+SHEET 8: EBITDA_RGS
+  Used Range: $A$1:$AO$57
+  Last Row: 57
+  Last Column: 41
+  A1 Content: RGS
+  A2 Content: 
+  A3 Content: 
+
+SHEET 9: Capitalized Costs
+  Used Range: $A$1:$AV$69
+  Last Row: 69
+  Last Column: 48
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 10: Bonus Normalization
+  Used Range: $A$1:$CB$65
+  Last Row: 65
+  Last Column: 80
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 11: Non-Cash_Catalyst_Amort
+  Used Range: $B$1:$AQ$104
+  Last Row: 104
+  Last Column: 42
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 12: RGS Restruct Cost Savings
+  Used Range: $A$1:$BG$52
+  Last Row: 52
+  Last Column: 59
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 13: Cust_Quality
+  Used Range: $A$1:$BT$21
+  Last Row: 21
+  Last Column: 72
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 14: EBITDA_Subtables
+  Used Range: $A$1:$M$158
+  Last Row: 158
+  Last Column: 13
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 15: EBITDA_db
+  Used Range: $B$1:$BB$327
+  Last Row: 327
+  Last Column: 53
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 16: 2.0_NWC & Net Debt
+  Used Range: $A$1
+  Last Row: 1
+  Last Column: 1
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 17: NWC
+  Used Range: $A$1:$AS$83
+  Last Row: 83
+  Last Column: 45
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 18: NWC Charts
+  Used Range: $A$1
+  Last Row: 1
+  Last Column: 1
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 19: NWC Subtables
+  Used Range: $A$1:$HU$50
+  Last Row: 50
+  Last Column: 229
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+SHEET 20: Out-of-Period_Adj
+  Used Range: $A$1:$HK$50
+  Last Row: 50
+  Last Column: 219
+  A1 Content: 
+  A2 Content: 
+  A3 Content: 
+
+... (truncated for performance)
+
+=== COMMON PATTERNS DETECTED ===
+
+Sheet Categories:
+  EBITDA: 1.0_EBITDA
+  EBITDA: EBITDA_Consol
+  EBITDA: EBITDA_Consolidating
+  EBITDA: EBITDA_KOH
+  EBITDA: EBITDA_RGS
+  EBITDA: EBITDA_Subtables
+  EBITDA: EBITDA_db
+  Numbered: 2.0_NWC & Net Debt
+  Numbered: 3.0_Profit & Loss
+  Summary: KOH Summary
+  Summary: RGS Summary
+  Detail: Detail_PL_Consol
+  Detail: Detail_PL_RGS
+  Detail: Detail_PL_KOH
+  Detail: Detail_PL_RGS_Reported
+  Detail: Detail_PL_RGS_Pre
+  Detail: Detail_PL_New Orleans Central
+  Detail: Detail_PL_3M Decatur
+  Detail: Detail_PL_Citgo Lemont
+  Detail: Detail_PL_Joliet IL
+  Detail: Detail_PL_Texas Central
+  Detail: Detail_PL_Versum Materials
+  Detail: Detail_PL_RRS A6 Common
+  Detail: Detail_PL_NA
+  Numbered: 4.0_Balance Sheet
+  Summary: Summary_BS_Consol
+  Detail: Detail_BS_Consol
+  Detail: Detail_BS_RGS
+  Detail: Detail_BS_KOH
+  Summary: Summary_BS_Consolidating
+  Summary: Summary_BS_RGS
+  Summary: Summary_BS_KOH
+  Numbered: 5.0_Supplemental
+  EBITDA: EBITDA_Cash_Flow
+  Database: KOH_Post-FY24_db
+  Database: KOH_Pre-FY24_db
+  Database: RGS_P&L_db
+  Database: RGS_BS_db

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(cscript:*)",
+      "Bash(grep:*)",
+      "Bash(powershell:*)",
+      "Bash(cmd /c copy:*)",
+      "Bash(cmd /c dir:*)",
+      "Bash(dir:*)",
+      "Bash(move:*)",
+      "Bash(cmd /c move:*)",
+      "Bash(cmd /c:*)",
+      "Bash(ren:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,30 @@
+# Python dependencies for Version Control System
+# Core Excel handling
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+pandas>=2.0.0
+
+# File comparison and analysis
+deepdiff>=6.0.0
+filecmp>=3.8.0
+
+# Data processing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Configuration and utilities
+pyyaml>=6.0
+click>=8.1.0
+python-dateutil>=2.8.0
+
+# Hashing and compression
+hashlib>=3.8.0
+zipfile>=3.8.0
+
+# JSON handling
+jsonschema>=4.17.0
+
+# Optional: Advanced features
+# plotly>=5.15.0  # For metric charts
+# matplotlib>=3.7.0  # For comparison visualizations
+# seaborn>=0.12.0  # For statistical analysis
